@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Bootstrap Blog</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Blog</h1>
+      <p class="lead">A space where I share my thoughts and ideas</p>
+    </div>
+  </header>
+
+  <!-- Blog Content -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Blog Posts -->
+      <div class="col-md-8">
+        <!-- Blog Post 1 -->
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/750x300" class="card-img-top" alt="Blog post image">
+          <div class="card-body">
+            <h2 class="card-title">Blog Post Title 1</h2>
+            <p class="card-text">This is a short excerpt of the blog post. It gives an idea of what the post is about...</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        <!-- Blog Post 2 -->
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/750x300" class="card-img-top" alt="Blog post image">
+          <div class="card-body">
+            <h2 class="card-title">Blog Post Title 2</h2>
+            <p class="card-text">This is another excerpt from a second post. Let’s dive into the details...</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <h5 class="card-header">Categories</h5>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Lifestyle</a></li>
+              <li><a href="#">Travel</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card mb-4">
+          <h5 class="card-header">Recent Posts</h5>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li><a href="#">Why Bootstrap is Great</a></li>
+              <li><a href="#">Understanding Flexbox</a></li>
+              <li><a href="#">Best Coding Practices</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-0">© 2024 My Blog. All Rights Reserved.</p>
+      <a href="#" class="text-white">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
